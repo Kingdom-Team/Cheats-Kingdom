@@ -3,43 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Visit Website</title>
+    <title>Cheats Kingdom - Free & Safe Resources</title>
     <style>
         body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            background: linear-gradient(135deg, #4e54c8, #8f94fb);
+            color: #fff;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: linear-gradient(135deg, #4e54c8, #8f94fb);
-            color: white;
-        }
-        .container {
+            min-height: 100vh;
             text-align: center;
         }
+        .container {
+            max-width: 500px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
         h1 {
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.6;
             margin-bottom: 20px;
+        }
+        .steps {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        .steps li {
+            margin: 10px 0;
         }
         .btn {
             display: inline-block;
             padding: 15px 30px;
-            background: #ffffff;
-            color: #4e54c8;
+            font-size: 18px;
             font-weight: bold;
+            color: #4e54c8;
+            background: #fff;
             border-radius: 8px;
             text-decoration: none;
-            transition: background 0.3s ease;
+            transition: 0.3s;
         }
         .btn:hover {
             background: #f1f1f1;
+        }
+        .features {
+            margin-top: 25px;
+            font-size: 16px;
+        }
+        .features li {
+            margin: 8px 0;
+            list-style: none;
+            position: relative;
+            padding-left: 25px;
+        }
+        .features li::before {
+            content: "✔";
+            position: absolute;
+            left: 0;
+            color: #00ffcc;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Your Project Name</h1>
-        <a href="https://cheatskingdom.net" class="btn" target="_blank">Visit Website</a>
+        <h1>Enhance your gameplay experience</h1>
+        <p>Access free and safe resources for your favorite games.</p>
+        <div class="steps">
+            <p><strong>✅ How to access:</strong></p>
+            <ol>
+                <li>Click the button below</li>
+                <li>Visit our official resource hub</li>
+                <li>Explore tools and tips for your favorite games</li>
+            </ol>
+        </div>
+        <a href="https://cheatskingdom.net" class="btn" target="_blank">👉 Visit Website</a>
+        <ul class="features">
+            <li>Free and trusted</li>
+            <li>Safe and tested</li>
+            <li>Works on Windows</li>
+        </ul>
     </div>
 </body>
 </html>
